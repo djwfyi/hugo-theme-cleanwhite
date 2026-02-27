@@ -739,6 +739,14 @@ select {
     color: #eff4ff !important;
 }
 
+/* dark theme: keep the same overlay but ensure text is readable */
+[data-theme="dark"] .intro-header .post-heading {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
 [data-theme="dark"] .subtitle,
 [data-theme="dark"] .subheading {
     color: #a4b2ce !important;
